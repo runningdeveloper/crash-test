@@ -2,6 +2,7 @@
   "expo": {
     "name": "crash-test",
     "slug": "crash-test",
+    "privacy": "unlisted",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +24,11 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.runningdeveloper.crashtest",
+      "versionCode": 1
+    },
+    "description": ""
   }
 }
